@@ -1,7 +1,7 @@
-<script set up>
-
-</script>
-<template>
-    <h1>Dashboard</h1>
-    <hr> 
-</template>
+<script setup> 
+import MainLayout from '@/Layouts/MainLayout.vue'; 
+defineOptions({ layout: MainLayout }); 
+</script> 
+<template> 
+<h1>Dashboard Content</h1> 
+</template> 
