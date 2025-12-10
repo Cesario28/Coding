@@ -25,5 +25,5 @@ Route::get('/services', function () {
 });
 
 Route::get('/page1', [MyController::class, 'page1']);
-Route::get('/page2', [MyController::class, 'page2']);
+Route::post('/page2', [MyController::class, 'page2']);
  
